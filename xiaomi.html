@@ -5,7 +5,9 @@
 		<title>小米有品</title>
 		<link rel="stylesheet" type="text/css" href="xiaomi.css" />
 		<link rel="stylesheet" href="./index.css ">
+		<link rel="stylesheet" type="text/css" href="./bootstrap.css"/>
 		<script src="jQuery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./bootstrap.js" type="text/javascript" charset="utf-8"></script>
 		<script src="xiaomi.js" type="text/javascript" charset="utf-8"></script>
 		<script src="./jquery.slider.js"></script>
 	</head>
@@ -23,19 +25,16 @@
 				<div id="logoPhone"></div>&nbsp;
 				<a href="#" style="position: absolute;top: 0px;">下载 APP</a>
 			</div>
-			<div id="A2" class="a5" style="border: none;width: 170px;margin-left: 10px;">
-				<a href="#" style="position: relative;top: -3px;">资质证照/协议规则</a>
-				&nbsp;
-				<div id="logo1"></div>
-
-			</div>
-		</div>
-		<div id="float1">
-			<div id="floatA" style="position: absolute;">
-				<p style="text-align: center;line-height: 35px;">资质证照</p>
-			</div>
-			<div id="floatA" style="position: absolute;top: 40px;margin-top: -5px;">
-				<p style="text-align: center;line-height: 35px;">协议规则</p>
+			<div class="dropdown"style="display: inline-block;">
+			  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"style="color: #F0F8FF;background-color: rgb(51,51,51);border: none;">
+			    资质证照/协议规则
+			    <span class="caret"></span>
+			  </button>
+			  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1"style="background-color: rgb(51,51,51);">
+			    <li><a href="#">资质证照</a></li>
+			    <li role="separator" class="divider"></li>
+			    <li><a href="#">协议规则</a></li>
+			  </ul>
 			</div>
 		</div>
 		<!-- 头部 -->

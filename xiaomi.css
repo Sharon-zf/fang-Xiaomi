@@ -4,6 +4,10 @@
 	background-color: rgb(51, 51, 51);
 }
 
+a{
+	text-decoration: none !important;
+	color :#F0F8FF !important;
+}
 #A2 {
 	display: inline-block;
 	border: solid 2px rgb(102, 102, 102);
