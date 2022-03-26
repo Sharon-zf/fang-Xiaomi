@@ -45,6 +45,10 @@ a {
 	line-height: 20px;
 }
 
+.dropdown-menu li {
+	color: rgb(135, 109, 70);
+}
+
 #logo1 {
 	width: 13px;
 	height: 7px;
